@@ -8,10 +8,6 @@ const Alexa = require('ask-sdk-core');
 const i18n = require('i18next');
 // i18n strings for all supported locales
 const languageStrings = require('./utils/languageStrings');
-const { firestore } = require('./config/firebase');
-const data = require('./config/questions.json');
-const state = require('./config/state.json');
-const fs = require('fs');
 
 // simple handlers
 const LaunchRequestHandler = {
