@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Fire base config
+src/config/service.account.json

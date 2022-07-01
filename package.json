@@ -1,0 +1,17 @@
+{
+    "name": "my-gamify",
+    "description": "Alexa skill like kahoot",
+    "version": "0.0.1",
+    "main": "./src/handlers/index.js",
+    "dependencies": {
+        "ask-sdk-core": "^2.7.0",
+        "ask-sdk-model": "^1.19.0",
+        "aws-sdk": "^2.326.0",
+        "firebase": "^9.8.4",
+        "firebase-admin": "^11.0.0",
+        "i18next": "^15.0.5"
+    },
+    "scripts": {
+        "test": "echo \"Hello world!\""
+    }
+}
